@@ -1,0 +1,32 @@
+{
+  "name": "lit-examples",
+  "version": "1.0.0",
+  "description": "Examples for Lit",
+  "author": "Rick Beerendonk",
+  "license": "EUPL-1.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickbeerendonk/lit-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickbeerendonk/lit-examples/issues"
+  },
+  "homepage": "https://github.com/rickbeerendonk/lit-examples#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier"
+    }
+  },
+  "scripts": {
+    "prettier": "prettier --list-different '**/*.{html,js,json,md,ts}'",
+    "prettier-fix": "prettier --write '**/*.{html,js,json,md,ts}'",
+    "openserver": "node ./server/server.js",
+    "start": "npm run openserver -- \".\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^4",
+    "mime-types": "^3",
+    "prettier": "^3"
+  }
+}

@@ -1,0 +1,14 @@
+#################
+## Angular Examples
+#################
+
+.angular/
+dist/
+temp/
+documentation.json
+
+#################
+## npm
+#################
+
+node_modules/

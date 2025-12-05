@@ -1,4 +1,7 @@
-import { LitElement, html, css } from "lit";
+/*! European Union Public License version 1.2 !*/
+/*! Copyright © 2025 Rick Beerendonk          !*/
+
+import { LitElement, html, css } from 'lit';
 
 class MyElement extends LitElement {
   static styles = css`
@@ -29,4 +32,4 @@ class MyElement extends LitElement {
   }
 }
 
-customElements.define("my-element", MyElement);
+customElements.define('my-element', MyElement);
