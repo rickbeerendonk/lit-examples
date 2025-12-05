@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome for Current File",
+      "url": "http://localhost:8000",
+      "webRoot": "${fileDirname}",
+      "preLaunchTask": "Start Server in Current Folder"
+    }
+  ]
+}
